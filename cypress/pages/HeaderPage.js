@@ -18,6 +18,7 @@ class HeaderPage {
     getNotificationBell() {
         // Likely a button or icon with a specific class or ID
         return cy.get('[aria-label="Notifications"]'); // Example: using an ARIA label
+        cy.log("Log file");
     }
 // In cypress/pages/HeaderPage.js
 
